@@ -21,6 +21,9 @@ By default, DebugKit uses a small SQLite database in your application's ``/tmp``
 directory to store the panel data. If you'd like DebugKit to store its data
 elsewhere, you should define a ``debug_kit`` connection.
 
+.. note::
+    This means you must have the pdo SQLite driver installed for DebugKit to work off the bat. Keep this in mind.
+    
 Database Configuration
 ----------------------
 
